@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+   
+    <script>
+    // let text = "Hello World!";// let length = text.length;
+
+      let text = prompt("Please Enter your words: ");
+      let text_count = text.length;
+      let reverse_string = '';
+
+       while (text_count > 0) 
+
+       {
+        reverse_string += text.substring(text_count-1,text_count)
+        text_count--;
+
+       }
+
+       document.write("the original string is: " + text + "</br>");       
+       document.write("the reverse string is: " + reverse_string + "</br>");
+       
+    </script>
+
+</body>
+
+
+</html>

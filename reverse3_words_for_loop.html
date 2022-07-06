@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+
+  <script>
+
+    // chỉ số chuỗi từ bên phải tính bắt đầu là -1, bên trái bắt đầu bằng 0
+    
+    let text = prompt("Please Enter your words: ");
+    let reverse_string ='';
+
+    let text_count = text.length;
+
+    for (let i = text.length-1; i >= 0; i--) {
+        reverse_string += text[i];
+
+    }
+    
+    document.write("the original string is: " + text + "</br>");
+    document.write("the reverse string is: " + reverse_string + "</br>");
+
+  </script>
+
+</body>
+
+</html>
